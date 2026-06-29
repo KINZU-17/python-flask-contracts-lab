@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from flask import Flask, request, current_app, g, make_response, jsonify
+from flask import Flask, jsonify
 
 contracts = [
     {"id": 1, "contract_information": "This contract is for John and building a shed"},
